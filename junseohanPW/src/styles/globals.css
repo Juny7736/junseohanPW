@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-primary-800 dark:text-primary-100 bg-white dark:bg-primary-900 transition-colors duration-300;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv03";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    @apply bg-accent-200 text-accent-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold leading-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl mb-6;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl mb-5;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl mb-4;
+  }
+
+  p {
+    @apply mb-4 leading-relaxed text-primary-700 dark:text-primary-200;
+  }
+  
+  section {
+    @apply py-16 md:py-24;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 sm:px-6 mx-auto max-w-7xl;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 transform hover:scale-105;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-500 hover:bg-primary-600 text-white focus:ring-primary-500 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-accent {
+    @apply btn bg-accent-500 hover:bg-accent-600 text-white focus:ring-accent-500 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-outline {
+    @apply btn border-2 border-primary-500 text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-800 focus:ring-primary-500 shadow-lg hover:shadow-xl;
+  }
+
+  .card {
+    @apply bg-white dark:bg-primary-800 rounded-xl shadow-lg hover:shadow-2xl overflow-hidden transition-all duration-300 backdrop-blur-sm bg-opacity-90 dark:bg-opacity-90;
+  }
+
+  .nav-link {
+    @apply relative px-2 py-1 text-primary-600 dark:text-primary-200 hover:text-primary-800 dark:hover:text-white transition-colors duration-200;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-accent-500 to-primary-500 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .cursor-dot {
+    @apply fixed pointer-events-none rounded-full z-50;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(45deg, #FF6B6B, #3B4D71);
+    mix-blend-mode: difference;
+    transition: transform 0.2s ease;
+  }
+
+  .cursor-outline {
+    @apply fixed pointer-events-none rounded-full z-50;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, #FF6B6B, #3B4D71) 1;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+  }
+  
+  .cursor-outline.hover {
+    width: 60px;
+    height: 60px;
+    border-image: linear-gradient(45deg, #FF6B6B, #3B4D71) 1;
+  }
+}
+
+.section-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.section-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Project card hover effects */
+.project-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Scroll progress bar */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #3B4D71, #FF6B6B, #3B4D71);
+  background-size: 200% 100%;
+  animation: gradientMove 8s linear infinite;
+  transform-origin: 0%;
+  z-index: 100;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* Gradient text animation */
+.gradient-text {
+  background: linear-gradient(90deg, #3B4D71, #FF6B6B, #3B4D71);
+  background-size: 200% 100%;
+  animation: gradientText 8s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientText {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* Glowing effect */
+.glow {
+  position: relative;
+}
+
+.glow::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(45deg, #FF6B6B, #3B4D71);
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.glow:hover::after {
+  opacity: 0.5;
+}
