@@ -42,7 +42,7 @@ const Header = () => {
           href="#home"
           className="text-2xl font-bold text-primary-600 dark:text-white"
         >
-          John<span className="text-accent-500">Doe</span>
+          Junseo<span className="text-accent-500">Han</span>
         </a>
 
         {/* Desktop Navigation */}
