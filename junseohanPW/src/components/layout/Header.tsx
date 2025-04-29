@@ -12,6 +12,7 @@ const Header = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
+    { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
@@ -41,7 +42,7 @@ const Header = () => {
           href="#home"
           className="text-2xl font-bold text-primary-600 dark:text-white"
         >
-          Junseo<span className="text-accent-500">Han</span>
+          John<span className="text-accent-500">Doe</span>
         </a>
 
         {/* Desktop Navigation */}
