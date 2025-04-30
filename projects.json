@@ -1,0 +1,56 @@
+[
+  {
+    "title": "E-Commerce Dashboard",
+    "description": "A comprehensive dashboard for e-commerce stores with analytics, inventory management, and order processing.",
+    "image": "https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "web",
+    "technologies": ["React", "TypeScript", "Tailwind CSS", "Redux", "Node.js"],
+    "demoLink": "https://example.com/demo",
+    "githubLink": "https://github.com"
+  },
+  {
+    "title": "Task Management App",
+    "description": "A productivity application for organizing tasks, projects, and collaborating with team members.",
+    "image": "https://images.pexels.com/photos/6177645/pexels-photo-6177645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "web",
+    "technologies": ["Next.js", "TypeScript", "GraphQL", "Prisma", "Framer Motion"],
+    "demoLink": "https://example.com/demo",
+    "githubLink": "https://github.com"
+  },
+  {
+    "title": "Fitness Tracker Mobile App",
+    "description": "A mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.",
+    "image": "https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "mobile",
+    "technologies": ["React Native", "TypeScript", "Redux", "Firebase"],
+    "demoLink": "https://example.com/demo",
+    "githubLink": "https://github.com"
+  },
+  {
+    "title": "Real Estate Listings Platform",
+    "description": "A web platform for real estate listings with advanced search, filtering, and virtual tours.",
+    "image": "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "web",
+    "technologies": ["React", "Node.js", "MongoDB", "Express", "Mapbox"],
+    "demoLink": "https://example.com/demo",
+    "githubLink": "https://github.com"
+  },
+  {
+    "title": "Social Media App Redesign",
+    "description": "A redesign concept for a popular social media platform focusing on improved usability and accessibility.",
+    "image": "https://images.pexels.com/photos/3850227/pexels-photo-3850227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "ui",
+    "technologies": ["Figma", "Adobe XD", "Illustrator", "Prototyping"],
+    "demoLink": "https://example.com/demo",
+    "githubLink": "https://github.com"
+  },
+  {
+    "title": "Recipe Sharing Community",
+    "description": "A platform for food enthusiasts to discover, share, and collaborate on recipes with interactive features.",
+    "image": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "category": "web",
+    "technologies": ["Vue.js", "Firebase", "Tailwind CSS", "Progressive Web App"],
+    "demoLink": "https://example.com/demo",
+    "githubLink": "https://github.com"
+  }
+]
