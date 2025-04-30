@@ -7,12 +7,12 @@ const About = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    "junseohanPW/images/mesopretty.jpg",
-    "junseohanPW/images/soccer2.jpg",
-    "junseohanPW/images/soccer3.jpg",
-    "junseohanPW/images/thebass.jpg",
-    "junseohanPW/images/bass2.png",
-    "junseohanPW/images/thegoonies.jpg",
+    "junseohanPW/junseohanPW/images/mesopretty.jpg",
+    "junseohanPW/junseohanPW/images/soccer2.jpg",
+    "junseohanPW/junseohanPW/images/soccer3.jpg",
+    "junseohanPW/junseohanPW/images/thebass.jpg",
+    "junseohanPW/junseohanPW/images/bass2.png",
+    "junseohanPW/junseohanPW/images/thegoonies.jpg",
   ];
 
   useEffect(() => {
@@ -119,7 +119,7 @@ const About = () => {
 
             <motion.p variants={variants} className="mb-4 text-lg">
               Hello, I'm Junseo — a dedicated software developer from Toronto
-              with over years of experience building robust, high-performance
+              with years of experience building robust, high-performance
               software solutions.
             </motion.p>
 
