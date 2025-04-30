@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/junseohanPW/*"
+to = "/junseohanPW/index.html"
+status = 200
