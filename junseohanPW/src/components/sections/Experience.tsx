@@ -128,7 +128,7 @@ const Experience = () => {
               <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-accent-500 rounded-full border-4 border-white dark:border-primary-900" />
 
               <div
-                className={`flex-1 ${index % 2 === 0 ? "md:text-right" : ""}`}
+                className={`flex-1 ${index % 2 === 0 ? "md:text-left" : ""}`}
               >
                 <div className="card p-6 h-full">
                   <div className="flex items-center gap-3 mb-4">
