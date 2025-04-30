@@ -7,12 +7,12 @@ const About = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    "images/mesopretty.jpg",
-    "images/soccer2.jpg",
-    "images/soccer3.jpg",
-    "images/thebass.jpg",
-    "images/bass2.png",
-    "images/thegoonies.jpg",
+    "junseohanPW/images/mesopretty.jpg",
+    "junseohanPW/images/soccer2.jpg",
+    "junseohanPW/images/soccer3.jpg",
+    "junseohanPW/images/thebass.jpg",
+    "junseohanPW/images/bass2.png",
+    "junseohanPW/images/thegoonies.jpg",
   ];
 
   useEffect(() => {
