@@ -168,7 +168,7 @@ const Hero = () => {
                   }}
                 />
                 <img
-                  src="../images/linkedinpic.jpg"
+                  src="images/linkedinpic.jpg"
                   alt="Junseo Han - Profile Picture"
                   className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
                 />
