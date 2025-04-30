@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import ProjectCard from "../ui/ProjectCard";
-import { projects, Project, Category } from "../../data/projects";
+import { projects, Category } from "../../data/projects";
 
 const Projects = () => {
   const sectionRef = useRef<HTMLElement>(null);
