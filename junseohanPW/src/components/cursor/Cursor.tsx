@@ -82,7 +82,7 @@ const AmongUs: React.FC = () => {
     };
 
     const animate = () => {
-      const ease = 0.08;
+      const ease = 0.06;
       const dx = targetPosition.current.x - position.x;
       const dy = targetPosition.current.y - position.y;
 
