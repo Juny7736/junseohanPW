@@ -1,0 +1,152 @@
+/* Hide default cursor throughout the page */
+body,
+body * {
+  cursor: none !important;
+}
+
+/* Base cursor styles */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 10000;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+}
+
+.cursor.visible {
+  opacity: 1;
+}
+
+/* Among Us styles */
+.among-us {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 36px;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+}
+
+.among-us.visible {
+  opacity: 1;
+}
+
+.among-us-character {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: float 2s infinite alternate ease-in-out;
+}
+
+.among-us-body {
+  position: absolute;
+  width: 26px;
+  height: 28px;
+  background-color: #c51111;
+  border: 2px solid #000;
+  border-radius: 12px 12px 8px 8px;
+  transform-origin: center bottom;
+  animation: wobble 3s infinite alternate ease-in-out;
+}
+
+.among-us-backpack {
+  position: absolute;
+  width: 12px;
+  height: 18px;
+  background-color: #c51111;
+  border: 2px solid #000;
+  border-radius: 5px;
+  right: 0;
+  top: 10px;
+}
+
+.among-us-visor {
+  position: absolute;
+  width: 20px;
+  height: 12px;
+  background-color: #8cdaff;
+  border: 2px solid #000;
+  border-radius: 10px 10px 10px 0;
+  left: 8px;
+  top: 6px;
+}
+
+.among-us-legs {
+  position: absolute;
+  width: 18px;
+  height: 6px;
+  bottom: 0;
+  left: 6px;
+}
+
+.among-us-legs::before,
+.among-us-legs::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 6px;
+  background-color: #c51111;
+  border: 2px solid #000;
+  border-radius: 0 0 4px 4px;
+  bottom: 0;
+}
+
+.among-us-legs::before {
+  left: 0;
+}
+
+.among-us-legs::after {
+  right: 0;
+}
+
+.among-us.hovering .among-us-body,
+.among-us.hovering .among-us-backpack,
+.among-us.hovering .among-us-legs::before,
+.among-us.hovering .among-us-legs::after {
+  background-color: #2e56b5;
+  transition: background-color 0.3s ease;
+  transform: scale(1.1);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes wobble {
+  0% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
+}
+
+/* Hide cursor on touch devices */
+@media (pointer: coarse) {
+  .cursor,
+  .among-us {
+    display: none;
+  }
+
+  body,
+  body * {
+    cursor: auto !important;
+  }
+}

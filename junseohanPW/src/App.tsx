@@ -8,7 +8,7 @@ import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/layout/Footer";
-import CustomCursor from "./components/ui/CustomCursor";
+import { Cursor, AmongUs } from "./components/cursor/Cursor";
 import LoadingScreen from "./components/ui/LoadingScreen";
 import { useTheme } from "./context/ThemeContext";
 
@@ -55,7 +55,12 @@ function App() {
             />
 
             {/* Custom cursor (only on desktop) */}
-            {!isMobile && <CustomCursor />}
+            {!isMobile && (
+              <>
+                <Cursor />
+                <AmongUs />
+              </>
+            )}
 
             <Header />
 
