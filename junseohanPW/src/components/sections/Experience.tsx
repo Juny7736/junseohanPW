@@ -56,7 +56,7 @@ const experiences: ExperienceItem[] = [
   {
     title: "Software Developer",
     company: "Quotograph.io",
-    period: "March 2025 - Present",
+    period: "February 2025 - May 2025",
     description: [
       "Built a project measurement tool using JavaScript, React, and SCSS, helping companies improve project estimation accuracy by 30% and reduce planning time by 20%.",
       "Developed 15+ responsive, scalable UI components with React and SCSS to streamline estimation workflows, increasing user task efficiency by 25%",
