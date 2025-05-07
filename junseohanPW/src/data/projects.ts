@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "Dormzy Student Housing",
     description:
       "Designed the Frontend and overall layout for a web platform aimed at helping students easily find off-campus housing near their schools, streamlining their search experience. I’m currently working on completing the development and deploying the site to make it fully functional and accessible for students to use.",
-    image: "/dist/images/Dormzy.png",
+    image: "images/Dormzy.png",
     category: "full stack development",
     technologies: [
       "React",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     title: "AI-powered interview TTS",
     description:
       "At DrawDream, I built the frontend for an AI-powered interview practice tool simulating real-time behavioral interviews. Integrated browser tab audio capture for transcribing instructor questions, enabling voice-based responses. The backend is in progress—I’ll be completing it.",
-    image: "/dist/images/DrawDream.png",
+    image: "images/DrawDream.png",
     category: "software development",
     technologies: [
       "React",
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     title: "Hamilton Water Polo Club",
     description:
       "Collaborated with a five-member development squad to revamp The Hamilton Aquatic Water Polo Club’s (HAWPC) website, enhancing both functionality and visual appeal.",
-    image: "/dist/images/HamiltonWPC.png",
+    image: "images/HamiltonWPC.png",
     category: "full stack development",
     technologies: [
       "React",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     title: "UEFA Champions League Tracker",
     description:
       "Developed the UEFA Champions League Tracker, a dynamic web application. Built using React, TypeScript, Tailwind CSS, Supabase, and Figma, it offers enhanced functionality and a modern, user-friendly interface. It is work in progress and the tracker will provide real-time updates and an engaging experience, showcasing full-stack development expertise.",
-    image: "/dist/images/championsleague.png",
+    image: "images/championsleague.png",
     category: "full stack development",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Supabase", "Figma"],
     demoLink: "https://championsleaguetracker.netlify.app/",
@@ -102,7 +102,7 @@ export const projects: Project[] = [
     title: "Discord Bot",
     description:
       "A platform for food Bousiasts to discover, share, and collaborate on recipes with interactive features.",
-    image: "/dist/images/discordbot.png",
+    image: "/images/discordbot.png",
     category: "software development",
     technologies: ["Python"],
     demoLink: "n/a",
