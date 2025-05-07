@@ -38,6 +38,10 @@ const Projects = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-primary-800 dark:text-white mb-4">
             Featured Projects
           </h2>
+          <p>
+            I am still learning backend as I am a student so it is all work in
+            progress!
+          </p>
           <div className="w-20 h-1 bg-accent-500 mx-auto mb-8" />
 
           {/* Category filter */}
