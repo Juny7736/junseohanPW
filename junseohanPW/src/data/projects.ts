@@ -16,9 +16,8 @@ export const projects: Project[] = [
   {
     title: "Dormzy Student Housing",
     description:
-      "Developed a full-functional website to help students easily find off-campus housing near their schools, streamlining their search process. 100+ Users!",
-    image:
-      "https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "Designed the Frontend and overall layout for a web platform aimed at helping students easily find off-campus housing near their schools, streamlining their search experience. I’m currently working on completing the development and deploying the site to make it fully functional and accessible for students to use.",
+    image: "/dist/images/Dormzy.png",
     category: "full stack development",
     technologies: [
       "React",
@@ -30,38 +29,32 @@ export const projects: Project[] = [
       "Git",
       "Figma",
     ],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com",
+    demoLink: "https://dormzy.netlify.app/",
+    githubLink: "https://github.com/Juny7736/DormzyRough",
   },
-  {
-    title: "Quotograph Measurement Tool",
-    description:
-      "A redesign concept for a popular social media platform focusing on improved usability and accessibility.",
-    image:
-      "https://images.pexels.com/photos/3850227/pexels-photo-3850227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "software development",
-    technologies: ["React", "JavaScript", "SCSS", "Python"],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com",
-  },
-
   {
     title: "AI-powered interview TTS",
     description:
-      "At DrawDream, developed an AI-powered interview practice toolto simulate real-time behavioral interviews for interviewers. Integrated browser tab audio capture to transcribe instructor questions into text, allowing interviewers to respond verbally without needing direct access to the app.",
-    image:
-      "https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "At DrawDream, I built the frontend for an AI-powered interview practice tool simulating real-time behavioral interviews. Integrated browser tab audio capture for transcribing instructor questions, enabling voice-based responses. The backend is in progress—I’ll be completing it.",
+    image: "/dist/images/DrawDream.png",
     category: "software development",
-    technologies: ["React", "TypeScript", "CSS", "Supabase", "Rust", "Prisma"],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com",
+    technologies: [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Figma",
+      "Supabase",
+      "Rust",
+      "Prisma",
+    ],
+    demoLink: "https://drawdreamai.netlify.app/",
+    githubLink: "https://github.com/Juny7736/DrawDream",
   },
   {
     title: "Hamilton Water Polo Club",
     description:
       "Collaborated with a five-member development squad to revamp The Hamilton Aquatic Water Polo Club’s (HAWPC) website, enhancing both functionality and visual appeal.",
-    image:
-      "https://images.pexels.com/photos/6177645/pexels-photo-6177645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/dist/images/HamiltonWPC.png",
     category: "full stack development",
     technologies: [
       "React",
@@ -72,13 +65,13 @@ export const projects: Project[] = [
       "Figma",
       "Git",
     ],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com",
+    demoLink: "https://hamiltonwaterpolo.ca/",
+    githubLink: "n/a",
   },
   {
     title: "Korean GTA Housing",
     description:
-      "A web platform for real estate listings with advanced search, filtering, and virtual tours.",
+      "A web platform for real estate listings with advanced search, filtering, and virtual tours for Koreans living in GTA. The development is WORK IN PROGRESS.",
     image:
       "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     category: "full stack development",
@@ -92,18 +85,17 @@ export const projects: Project[] = [
       "Git",
       "Figma",
     ],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com",
+    demoLink: "n/a",
+    githubLink: "n/a",
   },
   {
     title: "Discord Bot",
     description:
       "A platform for food Bousiasts to discover, share, and collaborate on recipes with interactive features.",
-    image:
-      "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/dist/images/discordbot.png",
     category: "software development",
     technologies: ["Python"],
-    demoLink: "https://example.com/demo",
-    githubLink: "https://github.com",
+    demoLink: "n/a",
+    githubLink: "https://github.com/Juny7736/DiscordBot",
   },
 ];
