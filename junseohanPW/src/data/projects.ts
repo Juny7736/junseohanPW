@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "Dormzy Student Housing",
     description:
       "Designed the Frontend and overall layout for a web platform aimed at helping students easily find off-campus housing near their schools, streamlining their search experience. I’m currently working on completing the development and deploying the site to make it fully functional and accessible for students to use.",
-    image: "images/Dormzy.png",
+    image: "images/dormzy.png",
     category: "full stack development",
     technologies: [
       "React",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     title: "AI-powered interview TTS",
     description:
       "At DrawDream, I built the frontend for an AI-powered interview practice tool simulating real-time behavioral interviews. Integrated browser tab audio capture for transcribing instructor questions, enabling voice-based responses. The backend is in progress—I’ll be completing it.",
-    image: "images/DrawDream.png",
+    image: "images/drawdream.png",
     category: "software development",
     technologies: [
       "React",
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     title: "Hamilton Water Polo Club",
     description:
       "Collaborated with a five-member development squad to revamp The Hamilton Aquatic Water Polo Club’s (HAWPC) website, enhancing both functionality and visual appeal.",
-    image: "images/HamiltonWPC.png",
+    image: "images/hamiltonWPC.png",
     category: "full stack development",
     technologies: [
       "React",
@@ -102,7 +102,7 @@ export const projects: Project[] = [
     title: "Discord Bot",
     description:
       "A platform for food Bousiasts to discover, share, and collaborate on recipes with interactive features.",
-    image: "/images/discordbot.png",
+    image: "images/discordbot.png",
     category: "software development",
     technologies: ["Python"],
     demoLink: "n/a",
