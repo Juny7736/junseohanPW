@@ -69,6 +69,16 @@ export const projects: Project[] = [
     githubLink: "n/a",
   },
   {
+    title: "UEFA Champions League Tracker",
+    description:
+      "Developed the UEFA Champions League Tracker, a dynamic web application. Built using React, TypeScript, Tailwind CSS, Supabase, and Figma, it offers enhanced functionality and a modern, user-friendly interface. It is work in progress and the tracker will provide real-time updates and an engaging experience, showcasing full-stack development expertise.",
+    image: "/dist/images/championsleague.png",
+    category: "full stack development",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Supabase", "Figma"],
+    demoLink: "https://championsleaguetracker.netlify.app/",
+    githubLink: "https://github.com/Juny7736/championsleague",
+  },
+  {
     title: "Korean GTA Housing",
     description:
       "A web platform for real estate listings with advanced search, filtering, and virtual tours for Koreans living in GTA. The development is WORK IN PROGRESS.",
